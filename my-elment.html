@@ -1,0 +1,30 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<!-- define the markup that your element will use -->
+<dom-module id="my-element">
+  <template>
+      <style>
+          :host {
+              display: block;     
+              /*THIS NOT WORK*/
+              background:  var(--fx-webkit-background, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,0,0,.65)), color-stop(100%,rgba(0,0,255,.65))));    
+              
+              /*THIS WORKS*/
+              /*background:  var(--fx-webkit-background,red);*/          
+          }
+      
+      </style>
+      
+    <div>
+      Hi! I'm an custom element
+    </div>
+  </template>
+
+  <script>
+ 
+    Polymer({
+        is: 'my-element'
+    });
+ 
+  </script>
+</dom-module>

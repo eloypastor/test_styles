@@ -1,0 +1,22 @@
+{
+  "name": "test_styles",
+  "authors": [
+    "Eloy Pastor Agulló <eloy.pastor.agullo@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.2.0",
+    "paper-material": "PolymerElements/paper-material#~1.0.4"
+  }
+}
